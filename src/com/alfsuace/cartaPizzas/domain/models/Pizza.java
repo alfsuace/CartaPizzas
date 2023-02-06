@@ -7,6 +7,7 @@ public class Pizza {
     private String salsa;
     private String extras;
 
+    private Horno horno;
 
     public String getId() {
         return id;
@@ -40,4 +41,11 @@ public class Pizza {
         this.extras = extras;
     }
 
+    public Horno getHorno() {
+        return horno;
+    }
+
+    public void setHorno(Horno horno) {
+        this.horno = horno;
+    }
 }
